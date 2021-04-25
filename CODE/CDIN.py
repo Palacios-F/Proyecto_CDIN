@@ -106,8 +106,8 @@ class CDIN:
         return x
     
     #%%Aumentar ceros
-    def zeros(x):
-        if len(x) < 2: 
-            x = (2 - len(x))*'0' + x
+    def zeros(x,n):
+        if len(x) < n: 
+            x = (n - len(x))*'0' + x
         return x
     
